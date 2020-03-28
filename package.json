@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-firebase-api-template",
+  "name": "api",
   "version": "1.0.0",
   "description": "NodeJS + Firebase Backend API Sample Application",
   "scripts": {
@@ -23,12 +23,14 @@
     "test": "jest --env=jsdom --watchAll --coverage --collectCoverageFrom=src/domain/**/*.js"
   },
   "dependencies": {
+    "babel": "^6.23.0",
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "firebase-admin": "~6.0.0",
     "firebase-functions": "^2.0.3",
     "firebase-tools": "^6.1.1",
     "moment": "^2.22.2",
+    "npm-install-loader": "^1.1.1",
     "uuid": "^3.3.2",
     "uuid-validate": "^0.0.3"
   },
@@ -42,7 +44,7 @@
     "eslint": "^4.12.0",
     "eslint-plugin-promise": "^3.6.0",
     "jest": "^23.6.0",
-    "nodemon": "^1.18.4",
+    "nodemon": "^1.19.4",
     "regenerator-runtime": "^0.12.1"
   },
   "repository": {
